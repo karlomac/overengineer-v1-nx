@@ -7,12 +7,12 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - ' + process.env.API_NAME,
-    title: process.env.API_NAME || '',
+    titleTemplate: '%s - ' + process.env.APP_NAME,
+    title: process.env.APP_BRRAND || '',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: process.env.APP_DESCRIPTION || '' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
