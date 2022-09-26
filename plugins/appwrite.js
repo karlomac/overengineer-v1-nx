@@ -5,7 +5,7 @@ import { Client, Account } from 'appwrite';
 const client = new Client;
 const account = new Account(client);
 
-console.log('url -', process.env.API_URL)
+console.log('url -', this.$config.apiUrl)
 
 client
     .setEndpoint(process.env.apiUrl)

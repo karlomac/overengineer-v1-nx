@@ -38,6 +38,8 @@
 </template>
 
 <script>
+import ldb from '~/assets/localdb';
+
 export default {
     data() {
         return {
@@ -48,6 +50,10 @@ export default {
                 password: ''
             },
         }
+    },
+
+    mounted(){
+        this.ldb.initialise()
     },
 
     methods: {
