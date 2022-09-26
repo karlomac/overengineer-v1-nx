@@ -86,7 +86,7 @@
 
 <script>
 export default {
-    middleware: 'secure',
+
     data() {
         return {
             
